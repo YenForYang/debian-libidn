@@ -1,0 +1,13 @@
+d359e5edb99409ca5b8370390566e752  usr/include/idn-free.h
+f7b74074ced7df2f4792c55542f1ff4f  usr/include/idn-int.h
+eacfd61704ef90c1d61e49d2211e96ec  usr/include/idna.h
+b56e4caad7ad4712c9fbd05f5a764c61  usr/include/pr29.h
+49231de086cf690b3512df2c875244f2  usr/include/punycode.h
+70da77cd2d22a8a5280961121ad56975  usr/include/stringprep.h
+a5ec824e320185f1d009d88a75765b91  usr/include/tld.h
+7fbcdc83e7f422d4c05a79c9c2d15edb  usr/lib/x86_64-linux-gnu/libidn.a
+d4bab6c9465627f65f8bd5a1bf96fea6  usr/lib/x86_64-linux-gnu/pkgconfig/libidn.pc
+8afc62b03895bec19f3846f0a229c940  usr/share/doc/libidn11-dev/changelog.Debian.gz
+2c6c9ddde8e10170e5e2bdbc5979ae9b  usr/share/doc/libidn11-dev/changelog.gz
+3088c1f4ab497387192427bc79ee7850  usr/share/doc/libidn11-dev/copyright
+6b02243bf4e7ee9ebf1b5ca7fa5c8625  usr/share/info/libidn-components.png

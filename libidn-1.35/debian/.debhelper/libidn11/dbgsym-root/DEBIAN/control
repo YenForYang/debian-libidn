@@ -1,0 +1,13 @@
+Package: libidn11-dbgsym
+Source: libidn
+Version: 1.35-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Libidn Team <help-libidn@gnu.org>
+Installed-Size: 51
+Depends: libidn11 (= 1.35-1)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libidn11
+Build-Ids: f10ede353a15a3ddc98bd1290ca326bb4d38bdd3

@@ -1,0 +1,12 @@
+Package: idn-dbgsym
+Source: libidn
+Version: 1.35-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Libidn Team <help-libidn@gnu.org>
+Installed-Size: 33
+Depends: idn (= 1.35-1)
+Section: debug
+Priority: optional
+Description: debug symbols for idn
+Build-Ids: 4454dfa475a2fe392298a840558551ef505466ca

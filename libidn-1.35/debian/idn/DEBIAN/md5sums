@@ -1,0 +1,6 @@
+4624c5d1b1c7a7952c2e3910f84da4a7  usr/bin/idn
+8afc62b03895bec19f3846f0a229c940  usr/share/doc/idn/changelog.Debian.gz
+2c6c9ddde8e10170e5e2bdbc5979ae9b  usr/share/doc/idn/changelog.gz
+3088c1f4ab497387192427bc79ee7850  usr/share/doc/idn/copyright
+3f1b1023598f5b5108cea3e89f5fc097  usr/share/emacs/site-lisp/idna.el
+c423e3092c97dc835d742632364e7289  usr/share/emacs/site-lisp/punycode.el

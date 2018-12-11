@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Tue, 11 Dec 2018 20:10:18 +0100
+Source: libidn
+Binary: idn libidn11-dev libidn11 libidn11-java
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64 all
+Version: 1.35-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Debian Libidn Team <help-libidn@gnu.org>
+Changed-By: Richard Yang <richard@yenforyang.com>
+Description:
+ idn        - Command line and Emacs interface to GNU Libidn
+ libidn11   - GNU Libidn library, implementation of IETF IDN specifications
+ libidn11-dev - Development files for GNU Libidn, an IDN library
+ libidn11-java - Java port of the GNU Libidn library, an IDN implementation
+Changes:
+ libidn (1.35-1) UNRELEASED; urgency=medium
+ .
+   * New upstream release
+Checksums-Sha1:
+ cbaf6fe3f41eb034ad18b67f232bbc526f78aaee 14156 idn-dbgsym_1.35-1_amd64.deb
+ cd23df4a31ab7e5f9a35a69b1cd99430b55ae7c5 139260 idn_1.35-1_amd64.deb
+ e53c8b5b716ad265ebf7143132887627ba1356ed 31960 libidn11-dbgsym_1.35-1_amd64.deb
+ d3fe3480bb73b06887f8ca427bf9b05b16bd07ac 474836 libidn11-dev_1.35-1_amd64.deb
+ a4c253253fda434a01fc3e00e634d98fada98863 496860 libidn11-java_1.35-1_all.deb
+ f0b4c577dbf20d0881379978db0cca6b0f58f035 175452 libidn11_1.35-1_amd64.deb
+ 6859ec6bdbe97508a8859c1deb74ed0cc8b04f6f 11337 libidn_1.35-1_amd64.buildinfo
+Checksums-Sha256:
+ 3e3bbdda409f2c7855b476bd398eb60dd2a17851c9e887d7e1b345b9be45038b 14156 idn-dbgsym_1.35-1_amd64.deb
+ 4bccc7679bd2db5e171a7a1d7980ab621ab91a3c925f2c21599e8271c291a779 139260 idn_1.35-1_amd64.deb
+ 323128ea4ad039be54e402bc3bc2aad58282306b3d15508518a01d3feaad3610 31960 libidn11-dbgsym_1.35-1_amd64.deb
+ d5fd4d794d344c299da6e9233e9d38ffc6b0369c8b94a961bd1fd8033f08d270 474836 libidn11-dev_1.35-1_amd64.deb
+ ed442ea1c0bd6cdc74b351600970db530babaa458b1771036c0d5ae2c2039429 496860 libidn11-java_1.35-1_all.deb
+ 9907459e71b4d31044951ac489bfd2bb57e9542d69aeec5d5e982d9f4876e78d 175452 libidn11_1.35-1_amd64.deb
+ 4483579e49eb4c7ac4da4b907ebe898a302d86ca16d5b00286cc2b3425150c7a 11337 libidn_1.35-1_amd64.buildinfo
+Files:
+ e7a3ad5897f7c6eb2d920224c4c2749d 14156 debug optional idn-dbgsym_1.35-1_amd64.deb
+ 16d4924e02ba37726cbca964eb9a9ea2 139260 misc optional idn_1.35-1_amd64.deb
+ b0c1d4a4316dac519fae40903bfa478c 31960 debug optional libidn11-dbgsym_1.35-1_amd64.deb
+ e80c5aaa96fd7d8dda40104c7922bf63 474836 libdevel optional libidn11-dev_1.35-1_amd64.deb
+ 3818423a43ffb2713c50d95974624b9f 496860 java optional libidn11-java_1.35-1_all.deb
+ 0517f25a2e3d7c42b3ec69da6ef1a53f 175452 libs optional libidn11_1.35-1_amd64.deb
+ f51d2ccbc658aeaf42b6f1e93940ab7a 11337 libs optional libidn_1.35-1_amd64.buildinfo
