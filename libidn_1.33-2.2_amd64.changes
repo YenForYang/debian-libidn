@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Tue, 10 Apr 2018 18:03:08 +0200
+Source: libidn
+Binary: idn libidn11-dev libidn11 libidn11-java
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64 all
+Version: 1.33-2.2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Libidn Team <help-libidn@gnu.org>
+Changed-By: Emilio Pozuelo Monfort <pochu@debian.org>
+Description:
+ idn        - Command line and Emacs interface to GNU Libidn
+ libidn11   - GNU Libidn library, implementation of IETF IDN specifications
+ libidn11-dev - Development files for GNU Libidn, an IDN library
+ libidn11-java - Java port of the GNU Libidn library, an IDN implementation
+Closes: 856159 892540
+Changes:
+ libidn (1.33-2.2) unstable; urgency=medium
+ .
+   * Non-maintainer upload.
+ .
+   [ Matthias Klose ]
+   * Build using default-jdk instead of gcj-jdk (Closes: #892540)
+ .
+   [ Emilio Pozuelo Monfort ]
+   * Set libidn11 priority to optional rather than standard.
+   * Mark libidn11-dev as Multi-Arch same. (Closes: #856159)
+Checksums-Sha1:
+ 64645c61cdc2a4d305293f4a831d6bacfa8da9a6 13976 idn-dbgsym_1.33-2.2_amd64.deb
+ 7b4c2a387ef01a0cd5d46453344a804811ec83e6 102188 idn_1.33-2.2_amd64.deb
+ f8a7773fd6dffb4fdb025ab92b7f3eef62c80129 30624 libidn11-dbgsym_1.33-2.2_amd64.deb
+ 7697e7445ae942cec3268a42c06e57460def8331 425248 libidn11-dev_1.33-2.2_amd64.deb
+ 8867069aeaf5c565c48b62b09aafa1cbf02ad6f1 188244 libidn11-java_1.33-2.2_all.deb
+ e98ef03e2e20518af68909492774927b96b76b57 136056 libidn11_1.33-2.2_amd64.deb
+ 5fa70a4f102f05093ccfd51954f28009ecbb7a55 11404 libidn_1.33-2.2_amd64.buildinfo
+Checksums-Sha256:
+ 0750cfdc39699ce654d738c8e9d6adae2dce76bd2d6a4f899bf82cbdddd995e3 13976 idn-dbgsym_1.33-2.2_amd64.deb
+ 4392ae36be8c209cfb836cfa1baae7daac420224e4dde5a8750a82102bc216bd 102188 idn_1.33-2.2_amd64.deb
+ 0c8a141146da11b7e38388c082146ee83329f351c001d205e5d958da7d4ac5ef 30624 libidn11-dbgsym_1.33-2.2_amd64.deb
+ 13c941ef08873b0ebb5b995b799ea5a0dd59644eea0f744e27c6c5a679c5d4ee 425248 libidn11-dev_1.33-2.2_amd64.deb
+ 7b4d1303535ae87ae632c1100d90d3292039645b9b7abfa94b10cc089939eec9 188244 libidn11-java_1.33-2.2_all.deb
+ b0f71882a27199aae22adf8145b64bd665653ae729ec6804461a28b57448d991 136056 libidn11_1.33-2.2_amd64.deb
+ c78b421f09eb01dc33e4ec8712fa0e8e131e6f54a7a2fa9debc42fb3622c5f84 11404 libidn_1.33-2.2_amd64.buildinfo
+Files:
+ 52b5a783be09a466825f54de7b55e378 13976 debug optional idn-dbgsym_1.33-2.2_amd64.deb
+ 3ece18b4be812fdf33c3ec8dcbe588b5 102188 misc optional idn_1.33-2.2_amd64.deb
+ a649f80752f50d354439a04224bc63c0 30624 debug optional libidn11-dbgsym_1.33-2.2_amd64.deb
+ 379efc008919d271bd7dc7fda6999390 425248 libdevel optional libidn11-dev_1.33-2.2_amd64.deb
+ de6a844f2fd7f38e812c1ee887fc8235 188244 java optional libidn11-java_1.33-2.2_all.deb
+ 7c7c35e94c76477f6404201ec0c5fdee 136056 libs optional libidn11_1.33-2.2_amd64.deb
+ 3dfb06ea3691972d89ee0722333231c0 11404 libs optional libidn_1.33-2.2_amd64.buildinfo

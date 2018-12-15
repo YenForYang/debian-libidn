@@ -1,0 +1,7 @@
+idn-dbgsym_1.33-2.2_amd64.deb debug optional automatic=yes
+idn_1.33-2.2_amd64.deb misc optional
+libidn11-dbgsym_1.33-2.2_amd64.deb debug optional automatic=yes
+libidn11-dev_1.33-2.2_amd64.deb libdevel optional
+libidn11-java_1.33-2.2_all.deb java optional
+libidn11_1.33-2.2_amd64.deb libs optional
+libidn_1.33-2.2_amd64.buildinfo libs optional

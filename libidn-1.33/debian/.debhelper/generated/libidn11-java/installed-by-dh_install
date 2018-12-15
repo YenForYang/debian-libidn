@@ -1,0 +1,12 @@
+debian/tmp/usr/share/java/libidn-1.33.jar
+debian/tmp/usr/share/java/libidn.jar
+./doc/java/about.html
+./doc/java/alphaindex.html
+./doc/java/deprecated.html
+./doc/java/gnu
+./doc/java/index.html
+./doc/java/Makefile.am
+./doc/java/Makefile.in
+./doc/java/package-list
+./doc/java/resources
+./doc/java/serialized-form.html
